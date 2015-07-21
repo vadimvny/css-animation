@@ -31,7 +31,7 @@
 				$(".rules").hide();
 				alert("Game Over(Refresh To Play Again)");
 			}else {
-				alert("You have" + " " + count + " clicks remaing");
+				console.log(count);
 			}	
 		});
 	});
